@@ -1,10 +1,13 @@
 #include <stdio.h>
-int puts(char a)
-	
+
+/**
+ * main - Short puts
+ *
+ * Return: 0
+ */
+
 int main(void)
 {
-	a = "Programming is like building a multilingual puzzle
-	puts(a);
-	
-	return(0)
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
