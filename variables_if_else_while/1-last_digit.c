@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - Print last digit of random nmb, compare to 5
- * @n: Random integer
- * @m: Remainder integer
+ * @n, @m: Random integer, Remainer integer
  * Return: Prints the comparison as string
  **/
 
