@@ -1,10 +1,20 @@
+#include "main.h"
 /**
- * _putchar - Prints its' own  name
- * Return: Nothing
+ * main - prints string
+ * @string: "_putchar"
+ * Returns: Prints "_putchar"
  **/
 
-int _putchar(void)
+int main(void)
 {
-	echo _putchar
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return(0);
 }
