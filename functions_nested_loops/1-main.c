@@ -1,4 +1,3 @@
-#include "main.h"
 #ifndef PRINTALPHA
 #define PRINTALPHA
 

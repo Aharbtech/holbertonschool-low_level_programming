@@ -1,7 +1,8 @@
 #include "main.h"
+#include "1-main.c"
 
 /**
- * print_alphabet - entry point for program
+ * print_alphabet - uses putchar
  * Return: void
  **/
 
@@ -12,7 +13,7 @@ void print_alphabet(void)
 	for (i = 'a'; i <= 'z'; i++)
 		_putchar(i);
 
-	_putchar('\n');;
+	_putchar('\n');
 }
 
 int main(void)
