@@ -1,5 +1,4 @@
 #include "main.h"
-#include "main.c"
 
 /**
  * print_alphabet - uses putchar
@@ -14,10 +13,4 @@ void print_alphabet(void)
 		_putchar(i);
 
 	_putchar('\n');
-}
-
-int main(void)
-{
-    print_alphabet();
-    return (0);
 }
