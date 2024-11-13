@@ -1,6 +1,4 @@
-#include "main.h"
-
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	char *ptr;
 
@@ -12,7 +10,7 @@ char *_strcat(char *dest, char *src)
 		ptr[i] = dest[i];
 	}
 	
-	for (int j = 0; j <= len_ptr;  j++)
+	for (int j = 0; j <= len_ptr && j != n;  j++)
 	{
 		ptr[len_dest + j] = src[j];
 	}
@@ -20,12 +18,3 @@ char *_strcat(char *dest, char *src)
 	return(*ptr);
 }
 
-
-/**
- *OR
- *
- * while (*dest != '\0')
- * 	*ptr = *dst;
- * 	ptr++;
- * 	dst++;
- */
