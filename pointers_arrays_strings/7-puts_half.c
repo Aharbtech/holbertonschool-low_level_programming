@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ * puts_half - Prints half a String
+ * @str: The String
+ * Return: Void
+ **/
 void puts_half(char *str)
 {
 	int length_of_the_string = 0;
@@ -21,7 +25,7 @@ void puts_half(char *str)
 			n++;
 		}
 	}
-	
+
 	else if (length_of_the_string % 2 != 0)
 	{
 		n = (length_of_the_string - 1) / 2;
@@ -35,4 +39,4 @@ void puts_half(char *str)
 	}
 
 	_putchar('\n');
-}	
+}
