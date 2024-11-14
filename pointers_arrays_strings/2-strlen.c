@@ -1,7 +1,7 @@
 /**
  * _strlen - Calculate length string
  * @s: intput string
- * Return: length
+ * Return: length i
  **/
 
 int _strlen(char *s)
