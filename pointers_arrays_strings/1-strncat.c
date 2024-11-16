@@ -1,20 +1,47 @@
+#include "main.h"
+/**
+ * _strcat - Concatenates two strings
+ * @dest: Destination Array
+ * @src: Source Array
+ * Return: Concatenated String
+ **/
+
 char *_strncat(char *dest, char *src, int n)
 {
-	char *ptr;
+	CONDITION IF N IS NEGATIVE, END NOW; THIS IS DIFF FROM IF N NOT NEGATIVE DO THIS
 
-	int len_dest = _strlen(*dest);
-	int len_src = _strlenchar(*src);;
+        char *ptr = dest;
 
-	for (int i = 0; i < len_dest; i++)
-	{
-		ptr[i] = dest[i];
-	}
+        while (*dest != '\0')
+        {
+                dest++;
+        }
 	
-	for (int j = 0; j <= len_ptr && j != n;  j++)
-	{
-		ptr[len_dest + j] = src[j];
-	}
+	WHILE LOOP FOR LENGTH SRC
+
+	int i = 0;
 	
-	return(*ptr);
+	if n <= LENGHT SRC
+
+		while (i <= n)
+	   	{
+                *dest = *src;
+                dest++;
+                src++;
+		i++;
+	  	}	
+
+	else if n > LENGHT SRC
+	       	while (i <= LENGHT SRC)
+        {
+                *dest = *src;
+                dest++;
+                src++;
+        }
+	
+
+	ADD HERE SO ITS DONE EVEN IF THERE EXISTS MISTAKES IN MY IFS ELIEFS
+	*dest = '\0';
+        
+	return (ptr);
 }
-
