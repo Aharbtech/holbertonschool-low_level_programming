@@ -1,4 +1,10 @@
 #include "main.h"
+/**
+ * leet - LEET
+ * @s: Regular Speak
+ * Return: 1337
+ **/
+
 char *leet(char *s)
 {
 	int i = 0;
